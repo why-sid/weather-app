@@ -37,11 +37,11 @@ async function checkWeather(city)
         case 'Clear':
             weather_img.src = "sunny.png";
             break;
+        case 'Monsoon':
+            weather_img.src = "stormy.png";
+            break;
         case 'Rain':
             weather_img.src = "light rain.png";
-            break;
-        case 'Monsoon':
-        weather_img.src = "stormy.png";
             break;
         case 'Mist':
             weather_img.src = "mist.png";
