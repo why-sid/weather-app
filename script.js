@@ -40,7 +40,7 @@ async function checkWeather(city)
         case 'Rain':
             weather_img.src = "light rain.png";
             break;
-        case 'Heavy Intensity Rain':
+        case 'Storm':
         weather_img.src = "stormy.png";
             break;
         case 'Mist':
